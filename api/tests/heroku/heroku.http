@@ -1,0 +1,18 @@
+POST https://gsu-petman.herokuapp.com/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "username"   : "petman",
+    "password"   : "petman",
+    "first_name" : "petman",
+    "last_name"  : "petman",
+    "email"      : "petman@gsu.edu"
+}
+
+POST https://gsu-petman.herokuapp.com/auth
+Content-Type: application/json
+
+{
+    "username" : "petman",
+    "password" : "petman"
+}
