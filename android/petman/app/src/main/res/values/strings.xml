@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Petman</string>
+    <string name="welcome_message">Welcome to PetMan</string>
+    <string name="register_message">Don\'t have an account ? Register</string>
+    <string name="API_URL">https://gsu-petman.herokuapp.com</string>
+    <string name="API_FETCH_TIMEOUT">30000</string>
+    <string name="invalid_username_password">Invalid username/password</string>
+    <string name="register_toolbar_label">Register account</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dialog_title">Confirmation</string>
+    <string name="dialog_message">Are you sure to perform the operation?</string>
+    <string name="dialog_btn_yes">Yes</string>
+    <string name="dialog_btn_no">No</string>
+
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="pet_type">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Fish</item>
+        <item>Bird</item>
+        <item>Turtle</item>
+    </string-array>
+
+
+</resources>
